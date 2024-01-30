@@ -1,5 +1,11 @@
+.container {
+  border: 1px solid red;
+}
 .row {
   border: 1px solid #000;
+}
+.col {
+  border: 1px solid blue;
 }
 .pink {
   background: pink;
