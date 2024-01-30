@@ -1,13 +1,52 @@
 .container {
-  border: 2px solid black;
+  border: 0px solid black;
 }
 /* .container-fluid {
   border: 4px solid blue;
 } */
 
 .row {
-  border: 3px solid blue;
+  border: 0px solid blue;
 }
-.col {
-  border: 6px solid green;
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  border: 0px solid red;
+}
+body {
+  background: grey;
+}
+
+#header {
+  background: orange;
+  padding: 10px 0 10px 10px;
+}
+#menu {
+  background: pink;
+  padding: 3px 0;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+}
+#menu ul li {
+  display: inline-block;
+}
+#content {
+  background: white;
+}
+#sidebar {
+  background: lightblue;
+}
+#footer {
+  background: orange;
 }
