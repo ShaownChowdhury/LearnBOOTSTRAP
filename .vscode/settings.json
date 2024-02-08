@@ -1,0 +1,5 @@
+{
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.tree.stickyScrollMaxItemCount": 7,
+  "editor.wordWrap": "on"
+}
