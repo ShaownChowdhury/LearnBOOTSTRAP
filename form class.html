@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootsrap</title>
+    <link rel="stylesheet" href="css and js compile/bootstrap.css" />
+    <link rel="stylesheet" href="css and js compile/style3.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center">Form Classes:</h2>
+      <div class="row py-3">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Name small:</label>
+            <input type="text" class="form-control form-control-sm" />
+            <label>Name:</label>
+            <input type="text" class="form-control" />
+            <label>Name large:</label>
+            <input type="text" class="form-control form-control-lg" />
+            <label>Password:</label>
+            <input type="password" class="form-control" />
+            <small class="form-text text-muted"
+              >Your password must be 8-20 characters long</small
+            ><br />
+            <label>Email:</label>
+            <input
+              value="abc@gmail.com"
+              type="email"
+              class="form-control-plaintext"
+              readonly
+            />
+
+            <label>Country:</label>
+            <select name="" id="" class="form-control">
+              <option value="" selected>Select Your Country</option>
+              <option value="">Bangladesh</option>
+              <option value="">India</option>
+              <option value="">Pakistan</option>
+              <option value="">Nepal</option>
+            </select>
+            <label>Input your text:</label>
+            <textarea name="" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <input type="file" class="form-control-file" />
+          <label>Amount</label>
+          <input type="range" class="form-control-range" /><br />
+
+          <label>Hobbies:</label><br />
+          <input type="checkbox" class="form-check-input" id="music" />
+          <label for="music">Music</label><br />
+          <input type="checkbox" class="form-check-input" id="game" />
+          <label for="game">Game</label><br />
+          <input type="checkbox" class="form-check-input" id="cricket" />
+          <label for="cricket">Cricket</label><br />
+          <input type="checkbox" class="form-check-input" id="football" />
+          <label for="football">Football</label><br />
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="badminton"
+            disabled
+          />
+          <label for="badminton">Badminton</label><br />
+
+          <label>Gender:</label><br />
+          <input
+            type="radio"
+            class="form-check-input"
+            name="gender"
+            id="male"
+          />
+          <label for="male">Male</label>
+          <input
+            type="radio"
+            class="form-check-input"
+            name="gender"
+            id="female"
+          />
+          <label for="female">Female</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
