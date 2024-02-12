@@ -10,14 +10,19 @@
   <body>
     <div class="container">
       <h3>
-        table,table-dark,table-light,table-hover,table-striped,table-borderless,table-bordered,table-sm,
+        In table tag =>
+        table,table-dark,table-light,table-hover,table-striped,table-borderless,table-bordered,table-sm,table-responsive
+      </h3>
+      <h3>
+        table row color=>
+        table-primary,table-secondary,table-danger,table-warning,table-success,table-info,table-light,table-dark
       </h3>
       <div class="row">
         <div class="col-md-6">
           <h1 class="text-center">Table</h1>
           <table class="table">
             <thead>
-              <tr>
+              <tr class="table-primary">
                 <th>Row</th>
                 <th>First name</th>
                 <th>Last name</th>
@@ -25,19 +30,19 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
+              <tr class="table-secondary">
                 <td>1</td>
-                <td>Ram</td>
+                <td class="table-warning">Ram</td>
                 <td>Kumar</td>
                 <td>ramkumar@gmail.com</td>
               </tr>
-              <tr>
+              <tr class="table-danger">
                 <td>2</td>
                 <td>Ram</td>
                 <td>Kumar</td>
                 <td>ramkumar@gmail.com</td>
               </tr>
-              <tr>
+              <tr class="table-warning">
                 <td>3</td>
                 <td>Ram</td>
                 <td>Kumar</td>
@@ -48,7 +53,7 @@
         </div>
         <div class="col-md-6">
           <h1 class="text-center">Table Dark</h1>
-          <table class="table table-dark">
+          <table class="table table-dark table-hover">
             <thead>
               <tr>
                 <th>Row</th>
