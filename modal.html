@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h3>Modal Example</h3>
+      <p>Click on the button to open the modal.</p>
+
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#myModal"
+      >
+        Open modal
+      </button>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Modal Heading</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">Modal body..</div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- trying -->
+    <div class="container">
+      click on button
+      <button
+        type="button"
+        class="btn btn-danger"
+        data-bs-toggle="modal"
+        data-bs-target="#newModal"
+      >
+        Modal
+      </button>
+    </div>
+    <!-- modal -->
+    <div class="modal" id="newModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- header  -->
+          <div class="modal-header">
+            <div class="modal-title">My New Modal</div>
+            <button
+              type="button"
+              class="btn btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <!-- modal body  -->
+          <div class="modal-body">Modal Body...</div>
+          <!-- modal footer  -->
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal 3 -->
+    <div class="container">
+      <button
+        type="button"
+        class="btn btn-success"
+        data-bs-toggle="modal"
+        data-bs-target="#success"
+      >
+        Success
+      </button>
+    </div>
+    <!-- modal start -->
+    <div class="modal" id="success">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Success modal</h3>
+            <button
+              type="button"
+              class="btn btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="card">
+              <img src="../Image/juice 1.jpeg" class="card-img" alt="" />
+              <button
+                style="width: 40%"
+                type="button"
+                class="btn btn-danger mx-auto"
+                data-bs-dismiss="modal"
+              >
+                Exist
+              </button>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            Click here to end
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-dismiss="modal"
+            >
+              End
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
