@@ -50,3 +50,8 @@ body {
 #footer {
   background: orange;
 }
+* {
+  a {
+    text-decoration: none;
+  }
+}
