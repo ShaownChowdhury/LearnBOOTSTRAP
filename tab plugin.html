@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootsrap</title>
+    <link rel="stylesheet" href="css and js compile/bootstrap.css" />
+    <link rel="stylesheet" href="css and js compile/style2.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#one" data-bs-toggle="collapse">Link 3</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="collapse" id="one">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi velit
+      dignissimos accusantium quod accusamus officia maxime reiciendis fugiat
+      quae praesentium.
+    </div>
+
+    <!-- nav tabs -->
+    <div class="container">
+      <h2 class="text-center">Nav tabs</h2>
+      <div class="row">
+        <div class="col">
+          <ul class="nav nav-tabs" id="myNav">
+            <li class="nav-item">
+              <a href="#one" class="nav-link active" data-bs-toggle="tab"
+                >Link 1</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#two" class="nav-link" data-bs-toggle="tabs">Link 1</a>
+            </li>
+            <li class="nav-item">
+              <a href="#three" class="nav-link" data-bs-toggle="tabs">Link 1</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myContent">
+            <div class="tab-pane active show" id="one">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+              in quasi asperiores non repudiandae eaque excepturi porro? Nisi,
+              itaque cumque.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
